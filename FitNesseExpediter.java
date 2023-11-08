@@ -1,3 +1,9 @@
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.Socket;
+
+import javax.print.attribute.standard.RequestingUserName;
+
 public class FitNesseExpediter implements ResponseSender {
     private Socket socket;
     private InputStream input;
